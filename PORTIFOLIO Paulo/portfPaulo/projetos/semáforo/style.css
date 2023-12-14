@@ -1,0 +1,57 @@
+@keyframes animacao_vermelho{
+    from{
+        background-color: black;
+    }
+    to{
+        background-color: red;
+    }
+}
+
+@keyframes animacao_amarelo{
+    from{
+        background-color: black;
+    }
+    to{
+        background-color: yellow;
+    }
+}
+
+@keyframes animacao_verde{
+    from{
+        background-color: black;
+    }
+    to{
+        background-color: #10d310;
+    }
+}
+
+.caixa{
+    background-color: blue;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.sinal{
+    background-color: black;
+    border-radius: 50px;
+    margin: 30px;
+    height: 100px;
+    width: 100px;
+}
+
+.vermelho{
+    animation-name: animacao_vermelho;
+    animation-duration: 2s;
+}
+
+.amarelo{
+    animation-name: animacao_amarelo;
+    animation-delay: 4s;
+    animation-duration: 2s;
+}
+
+.verde{
+    animation-name: animacao_verde;
+    animation-delay: 6s;
+    animation-duration: 2s;
+}

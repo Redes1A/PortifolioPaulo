@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+header {
+    background-color: blue;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: right;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    color: hwb(180 48% 51%);
+}
+
+.portifolio{
+    background-color: blue;
+    padding: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+label{
+    color: blue;
+}
+
+h1, h2{
+    color: white;
+    font-size: 60px;
+    margin-top: 0;
+    line-height: 20px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.projetosdocurso{
+    color: blue;
+    text-align: center;
+    padding-top: 40px;
+}
+
+img{
+    width: auto !important;
+    max-width: 250px !important;
+    height: auto;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.imagens {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    display: grid;
+    grid-gap: 18px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.estilolabel{
+    text-align: center;
+    padding-top: 5px;
+}
+
+.footer{
+    padding: 1px;
+    color: rgb(114, 110, 110);
+}
+
+

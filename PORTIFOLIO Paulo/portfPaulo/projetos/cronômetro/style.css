@@ -1,0 +1,16 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cronometro{
+    margin: 50px;
+    width: 200px;
+}
+.display{
+    font-size: 24px;
+}
+.botoes{
+    font-size: 16px;
+    padding: 5px 10px;
+    margin: 5px;
+}
